@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Templates - NAR</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="box container">
+      <header class="menu container">
+        <div class="header">
+          <div class="image-bg">
+            <div class="image">
+            </div>
+
+            <div class="line"></div>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <div class="content">
+          <div class="inputs container">
+            <form name="form" action="" class="input-form" method="post">
+              <label class="src-only" for="name">Name</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Input name"
+                autofocus
+              />
+              <label class="src-only" for="phone">Phone #</label>
+              <input
+                type="tel"
+                name="phone"
+                id="phone"
+                placeholder="Input phone"
+              />
+              <label class="src-only" for="ticket">Ticket #</label>
+              <input
+                type="text"
+                name="ticket"
+                id="ticket"
+                placeholder="Input ticket"
+              />
+
+              
+
+                
+
+              <div class="fieldset">
+                <fieldset>
+                  <legend>Additional contact type</legend>
+
+                
+                <div class="div">
+                <input  type="checkbox" name="teams" id="teams" placeholder="" />
+                <label class="" for="teams">Teams</label>
+              </div>
+
+              <div class="div">
+                <input type="checkbox" name="skype" id="skype" placeholder="" />
+                <label class="" for="skype">Skype</label>
+
+              <div class="div">
+
+
+                </fieldset>
+              
+              </div>
+
+                
+
+              <div class="date">
+
+             
+                <label class="src-only" for="date">Date</label>
+                <input type="date" name="date" id="date" placeholder="" />
+
+                <div class="time">
+                  <label class="src-only" for="time">Time</label>
+                  <input type="time" name="time" id="time" placeholder="" />
+  
+                  <label class="src-only" for="type">Timezone</label>
+  
+                <select name="timezone" id="timezone">
+                  <option value="1" select="1">EST</option>
+                  <option value="2" select="2">CST</option>
+                  <option value="3" select="3">MST</option>
+                  <option value="4" select="4">PST</option>
+                </select>
+              
+              </div>
+
+              </div>
+
+            
+              <label class="src-only" for="time">Subject Description</label>
+              <input
+                type="text"
+                name="subject"
+                id="subject"
+                placeholder="Input short description"
+              />
+              <label class="src-only" for="analyst">Analyst name</label>
+              <input
+                type="text"
+                name="analyst"
+                id="analyst"
+                placeholder="Analyst name"
+              />
+              <label class="src-only" for="type">Type</label>
+
+              <select name="type" id="type" required>
+                <option value="1" select="1">Resolved Incident</option>
+                <option value="2" select="2">Resolved Request</option>
+                <option value="3" select="3">Strike</option>
+                <option value="4" select="4">Lack of contact</option>
+              </select>
+            </form>
+          </div>
+
+          <div class="textearea container">
+            <div class="template">
+              <textarea name="textarea" id="textarea"></textarea>
+            </div>
+
+            <div class="button">
+              <a id="button" class="button" > <p>Create</p> </a>
+
+              <a id="copy" class="button clipboard" data-clipboard-target="#textarea"><p>Copy</p></a>
+
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.8/dist/clipboard.min.js"></script>
+
+  <script src="./main.js"></script>
+</html>
