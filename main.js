@@ -186,12 +186,7 @@ NAR - Advanced Support
     ${analyst}
     NAR - Advanced Support
     
-    ----------------------------------------------------
-    NUSA: 800-942-6828; NWNA: 800-934-4647; CANADA: 866-637-8535;
-
-    PURINA: 800-625-3369; NESPRESSO: 888-767-7248 (US)/877-537-9550 (Canada);
-
-    GALDERMA CANADA: 888-807-8108; DREYERS/MAS: 800-444-0160 `
+    `
 
  } else if(template == 4) {
     textarea.innerHTML = `Dear ${name}, 
