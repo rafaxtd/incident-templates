@@ -23,7 +23,7 @@
 
 ## 🚀 Tecnologies
 
-This is the first project designed by my own. I have designed authomitize my template creation. Tecnologies I have used:
+This is the first project designed by my own. I have designed to automitize my template creation. Tecnologies I have used:
 
 - HTML
 - CSS
